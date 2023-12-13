@@ -1,0 +1,181 @@
+textarea {
+    width: 95%;
+    height: 300px;
+    border-radius: 5px;
+    height: 45vh;
+    background-color: #fff;
+    font-size: 16px; /* You can adjust the font size as needed */
+}
+
+
+/* Styles for the modal window */
+/* CSS for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+
+
+.modal-content {
+    background-color: #fff;
+    width: 300px;
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Style for the close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+img {
+    width: 300px; /* Adjust the width as needed */
+    height: 50px; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+body {
+margin: 0;
+padding: 0%;
+background-color: #f4efef;
+background-attachment: fixed;
+background-size: 100% 100%;
+background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0yMl8xXzIuanBn.jpg?s=ltkE9rqfg__f8TbVNBJtwHrn9CpjtYI4qxyU2z4I3qI);
+overflow-x: hidden;
+}
+body.darkbody {
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.suggestions-box {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: rgb(243, 235, 235);
+    color: black;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 5px;
+    left: 20px; /* Adjust this value as needed to move it to the right */
+}
+
+.suggestion-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust the gap between suggestions as needed */
+}
+
+.suggestion-item {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+}
+input[type="words"] {
+position: relative;
+display: flex;
+}
+
+body {
+margin: 0;
+padding: 0%;
+background-color: #f4efef;
+background-attachment: fixed;
+background-size: 100% 100%;
+background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0yMl8xXzIuanBn.jpg?s=ltkE9rqfg__f8TbVNBJtwHrn9CpjtYI4qxyU2z4I3qI);
+overflow-x: hidden;
+}
+
+.darkbody {
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0yMl8xXzIuanBn.jpg?s=ltkE9rqfg__f8TbVNBJtwHrn9CpjtYI4qxyU2z4I3qI);
+}
+
+div.Title > a:hover {
+color: rgb(245, 147, 147);
+text-decoration: none;
+user-select: none;
+}
+
+#editor {
+height: 50vh;
+overflow: auto;
+}
+
+div.Title > a {
+color: #fcc;
+text-decoration: none;
+user-select: none;
+}
+
+.container {
+padding: 50px;
+}
+
+.menu-nav {
+    top: 0;
+    width: 100%;
+    padding: auto;
+    background-color: #44b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Title {
+    flex-grow: 1; /* Title will take all available space on the left */
+    text-align: center;
+}
+
+.username {
+    flex-grow: 0; /* Username will not grow, so it stays on the right */
+    font-size: 25px;
+    color: #f4efef;
+}
+
+.logout-button a {
+    text-transform: capitalize;
+    font-size: 110%;
+    text-decoration: underline;
+    
+}
+   
+
+/* Style for displaying suggestion meanings */
+.suggestion-meaning {
+    font-style: italic;
+    display: none;
+    color: white;
+    background-color: black;
+}
+
+/* Style for the microphone button */
+.microphone-button {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* Style for the add shortcut form */
+.shortcut-form {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
