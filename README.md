@@ -1,2 +1,2 @@
 # autocorrector-nlp
-Mini Project regarding Auto corrector Feature using NLP
+Mini Project regarding Autocorrect Feature using Natural Language Processing 
